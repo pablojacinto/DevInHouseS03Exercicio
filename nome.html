@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <h3>Informe seu nome</h3>
+
+      <input type="text" id="informanome" value="" />
+
+      <button onclick="myName()">Informar nome</button> <br />
+
+      <input type="text" id="informasobrenome" value="" />
+
+      <button onclick="myLastName()">Informar sobrenome</button>
+
+      <p>Seu nome é: <span id="nome"></span></p>
+
+      <p>Seu sobrenome é: <span id="sobrenome"></span></p>
+
+      <p>Seu nome possui <span id="contagemNome">_</span> letras</p>
+
+      <script>
+         function myName() {
+            var x = document.getElementById('informanome').value;
+            document.getElementById('nome').innerHTML = x;
+
+            document.getElementById('contagemNome').innerHTML = x.length;
+         }
+
+         function myLastName() {
+            var y = document.getElementById('informasobrenome').value;
+            document.getElementById('sobrenome').innerHTML = y.toUpperCase();
+         }
+      </script>
+   </body>
+</html>
