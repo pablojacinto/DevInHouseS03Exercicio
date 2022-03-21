@@ -11,3 +11,13 @@ function calcPA() {
    }
    document.getElementById('resultado').innerHTML = pa;
 }
+
+//OUTRA FORMA
+// let valorInicial = Number(prompt("Digite um valor"));
+//  let raiz = Number(prompt("Digite outro valor"));
+//  let resultado = [valorInicial];
+//  for(i=1; i<= 10; i++) {
+//   valorInicial += raiz;
+//   resultado.push(valorInicial);
+//  }
+//  alert(resultado.join("-"));
