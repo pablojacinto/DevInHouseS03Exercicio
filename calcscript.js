@@ -38,8 +38,8 @@ function result2() {
       var resultado2 = v1 - v2;
    } else if (operador === '*') {
       var resultado2 = v1 * v2;
-   } else if (operador === '*') {
-      var resultado2 = v1 * v2;
+   } else if (operador === '/') {
+      var resultado2 = v1 / v2;
    }
    document.getElementById('resultado2').innerHTML = resultado2;
 }
